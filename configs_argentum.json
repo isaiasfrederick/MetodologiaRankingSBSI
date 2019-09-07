@@ -1,0 +1,311 @@
+{
+	"max_text_length": 500,
+	"fontes_cands": [
+		"wordnet",
+		"oxford"
+	],
+	"params_exps": {
+		"todos_criterios": [
+			"assembled"
+		],
+		"max_entradas_pos": 1000000,
+		"pos_avaliadas": [
+			[
+				"a", "n", "r", "v"
+			]
+		],
+		"qtde_exemplos": [
+			30
+		],
+		"qtde_sugestoes_best": [
+			1
+		],
+		"qtde_sugestoes_oot": [
+			10
+		],
+		"todas_fontes_def": [
+			"oxford"
+		],
+		"tipos_base": [
+			"test"
+		],
+		"usar_exemplos": [
+			false
+		],
+		"usar_gabarito": [
+			false
+		],
+		"comentarios": "pos_avaliadas = lista de listas"
+	},
+	"metodo_pmi": {
+		"usar_metodo": false,
+		"verbose": false,
+		"dir_contadores": "./Bases/Corpora/pmi.json",
+		"dir_contadores_tag": "./Bases/Corpora/pmi_tag.json",
+		"filtro_sintatico": {
+			"a": "anrv",
+			"n": "anrv",
+			"r": "anrv",
+			"v": "anrv"
+		}
+	},
+	"desambiguar_embeddings": true,
+	"desambiguacao": {
+		"diretorio_contexto_tagueado": "./Bases/contextos.json"
+	},
+	"ngram": {
+		"usar_seletor": false,
+		"fontes": [
+			"coca"
+		],
+		"blacklist": [
+			"new",
+			"use"
+		],
+		"signalmedia_5grams": "./Bases/Corpora/SignalMedia/5grams.ngram.txt",
+		"leipzig_conts": "./Bases/Corpora/Leipzig-ngrams/%s.conts.json",
+		"dir_derivado": "./Bases/Corpora/Leipzig-ngrams/%s.conts.derivados.json",
+		"dir_coca_ngrams": "./Bases/Corpora/COCA Corpus/coca-ngrams-postags.json",
+		"dir_signalmedia_ngrams": "./Bases/signalmedia-ngrams-postags.json",		
+		"max_cands_filtro": 6,
+		"min": 2,
+		"max": 5,
+		"usar_cache": false,
+		"dir_exemplos": {
+			"oxford_plain": "./Bases/Corpora/ngrams_exemplos_oxford_plain.json",
+			"oxford_tagueados": "./Bases/Corpora/ngrams_exemplos_oxford_tagueados.json"
+		}
+	},
+	"salvar_ngramas_genericos": false,
+	"selecionar_todos_candidatos": false,
+	"saida_contig": {
+		"habilitar": false,
+		"metodo": "definicao_usual",
+		"comentarios": "'definicao_usual' ou 'desambiguador'"
+	},
+	"alvaro": {
+		"politica_selecao": {
+			"oxford": {
+				"a": ["normal"],
+				"n": ["normal"],
+				"v": ["normal"],
+				"r": ["normal"]
+			},
+			"wordnet": {
+				"a": ["normal", "similar_tos"],
+				"n": ["normal", "hiperonimos", "hiponimos"],
+				"r": ["normal", "similar_tos"],
+				"v": ["normal", "similar_tos"]
+			}
+		},
+		"mxspdef_ox": 1,
+		"mxspdef_wn": 4,
+		"comentarios": ""
+	},
+	"peso_ngram": 10,
+	"medida_similaridade": "word_move_distance",
+	"saida_experimentos": "./Experimentos",
+	"caminho_bases": "./Bases",
+	"dir_saida_json": "./",
+	"dir_modelos": "Modelos",
+	"arquivo_log": "./Bases/log.txt",
+	"dir_temporarios": "tmp",
+	"separador": "@@@@@@",
+	"dir_saidas_rankeador": "SaidasRankeador",
+	"dir_base_casada_manualmente": "casamento_manual.json",
+	"espaco_branco": "",
+	"padrao_nome_submissao": "C=%s_G=%s_T=%s_MAXEX=%d_USAREX=%s_FONTESDEF=%s.%s",
+	"verbose": {
+		"geral": false
+	},
+	"lexelts_bloqueados":[
+		"wind.n 354"
+	],	
+	"gabarito": {
+		"tipo": "default",
+		"desc": "default ou gap"
+	},
+	"metodo_sinonimia_wmd": {
+		"usar_metodo": false
+	},
+	"wikipedia": {
+		"usar_frases": false,
+		"url_base_verbete": "https://en.wikipedia.org/wiki",
+		"dir_objeto_paginas_indexadas": "./Bases/Wikipedia/wikipedia_indexes.json",
+		"dir_frases": "./Bases/Wikipedia/dir_frases.json",
+		"dir_generico": "./Bases/Wikipedia/%s.json",
+		"url_desambiguacao": "https://en.wikipedia.org/wiki/%s_(disambiguation)"
+	},	
+	"arquivo_candidatos": "Cache/candidatos.json",
+	"oxford": {
+		"app_id": "",
+		"app_key": "",
+		"dir_palavras_monossemicas": "./Bases/Cache/Oxford/palavras_monossemicas.json",
+		"url_base": "https://od-api.oxforddictionaries.com:443/api/v2",
+		"url_base_thesaurus": "https://od-api.oxforddictionaries.com:443/api/v2",
+		"url_base_definicoes": "https://en.oxforddictionaries.com/definition",
+		"ecaraspaco": "",
+		"url_base1": "https://od-api.oxforddictionaries.com/api/v1",
+		"url_base_thesaurus1": "https://od-api.oxforddictionaries.com/api/v1",
+		"url_base_definicoes1": "https://en.oxforddictionaries.com/definition",
+		"dir_casamento_automatico": "./Bases/Cache/Oxford/CasamentoAutomatico/",
+		"pos": [
+			"Adjective",
+			"Adverb",
+			"Noun",
+			"Verb"
+		],
+		"cache": {
+			"desambiguador": "Cache/Oxford/Desambiguador",
+			"desambiguador_wmd": "./Bases/Cache/Oxford/DesambiguadorWMD",
+			"sinonimos": "Cache/Oxford/Sinonimos",
+			"sinonimia": "Cache/Oxford/Sinonimia",
+			"sinonimiaWMD": "Cache/Oxford/SinonimiaWMD",
+			"definicoes": "Cache/Oxford/Definicoes",
+			"frequencias": "Cache/Oxford/Frequencias",
+			"extrator_web": "Cache/Oxford/ExtratorWeb",
+			"obj_urls_invalidas_sinonimos": "Cache/Oxford/urls_invalidas_sinonimos.json",
+			"obj_urls_invalidas_definicoes": "Cache/Oxford/urls_invalidas_definicoes.json",
+			"obj_urls_invalidas_extrator": "Cache/Oxford/urls_invalidas_extrator.json"
+		},
+		"extrator_web": {
+			"xpaths": {}
+		}
+	},
+	"wordnet": {
+		"cache": {
+			"desambiguador": "Cache/Wordnet/Desambiguador"
+		}
+	},
+	"semeval2007": {
+		"exibir_resultados_automaticamente": true,
+		"metrica_automatica": "ModeRecall",
+		"todas_pos": [
+			"a",
+			"n",
+			"r",
+			"v"
+		],
+		"dir_resultados_concorrentes": "lexsubsystems",
+		"dir_raiz": "SemEval2007",
+		"trial": {
+			"gold_file": "trial/gold.trial",
+			"input": "trial/lexsub_trial.xml"
+		},
+		"test": {
+			"gold_file": "task10data/scoring/gold",
+			"input": "test/lexsub_test.xml"
+		},
+		"comando_scorer": "task10data/scoring/score.pl",
+		"criterio_ordenacao": [],
+		"tarefas": {
+			"limites": {
+				"oot": 10,
+				"best": 1
+			},
+			"separadores": {
+				"oot": ":::",
+				"best": "::"
+			}
+		},
+		"medidas": [
+			"Total",
+			"Attempted",
+			"Precision",
+			"Recall",
+			"TotalWithMode",
+			"Attempted",
+			"Precision",
+			"Recall"
+		],
+		"total_anotadores": 5,
+		"max_sugestoes": 3
+	},
+	"senseval2-lexicalSample": {
+		"py_score": "./scripts/senseval2_scorer.py",
+		"gold": "./Bases/Senseval2WSDSample/answers+misc/score/key",
+		"sensemap": "./Bases/Senseval2WSDSample/answers+misc/tasks/english-lex-sample/sensemap",
+		"diretorio_sistemas": "",
+		"arquivo_sistemas": {
+			"part1": "nome",
+			"part4": "nome",
+			"part5": "nome"
+		},
+		"comentarios": ""
+	},
+	"senseval3-lexicalSample": {
+		"py_score": "",
+		"gold": "",
+		"diretorio_sistemas": "",
+		"arquivo_sistemas": {
+			"part1": "nome",
+			"part4": "nome",
+			"part5": "nome"
+		},
+		"comentarios": ""
+	},
+	"possemeval2007": {
+		"dir_resultados_concorrentes": "",
+		"metricas": [
+			"gap"
+		]
+	},
+	"corpora": {
+		"frases_coletadas_web": "./Bases/Corpora/exemplos-web.json",
+		"deletar_docs_duplicados": false,
+		"dir_indexes_exemplos": "./Bases/Corpora/indexes-exemplos",
+		"dir_palavras_indexadas_exemplos": "./Bases/palavras_exemplos_indexados.json",
+		"dir_indexes": "./Bases/Corpora/indexes1",
+		"raiz": "",
+		"fontes": [
+			"LeipzigCorpus",
+			"SignalMedia"
+		]
+	},
+	"aplicacao": {
+		"dir_cache_casador_definicoes": "Cache/CasadorDefinicoes",
+		"dir_cache_relacao_sinonimia": "Cache/Oxford/Sinonimia"
+	},
+	"carregar_modelo": true,
+	"completar_predicao_dicionarios": false,
+	"tipos_modelo": "binario",
+	"modelos": {		
+		"default": "Modelos/vectors.bin",
+		"default_": "Modelos/glove.6B.300d.txt",
+		"word2vec-default": "Modelos/vectors.bin",
+		"glove-6B.50d": "Modelos/glove.6B.50d.txt",
+		"glove-6B.100d": "Modelos/glove.6B.100d.txt",
+		"glove-6B.200d": "Modelos/glove.6B.200d.txt",
+		"glove-6B.300d": "Modelos/glove.6B.300d.txt",
+		"sent2vec": "",
+		"context2vec": "",
+		"sense2vec": "",
+		"fasttext-wiki-news-300d-1M": "Modelos/wiki-news-300d-1M.vec",
+		"palavras_relacionadas": {
+			"google": ""
+		}
+	},
+	"wmd_max": 4.00,
+	"super_lista_stopwords": "./Bases/stop_words.json",
+	"delexical_verbs_normal": ["have", "take", "make", "give", "go", "do", "set", "keep", "hold"],
+	"delexical_verbs": ["have", "take", "make", "give", "go", "do", "set", "keep", "hold", "gone", "set", "give", "doing", "held", "done", "have", "go", "doesn't", "given", "takes", "giving", "make", "don't", "had", "going", "take", "goes", "taken", "has", "setting", "haven't", "gives", "do", "holding", "keeps", "took", "hold", "holds", "keeping", "made", "kept", "did", "taking", "hasn't", "keep", "does", "sets", "making", "went", "gave", "makes", "having"],
+	"remover_delexical_verbs": false,
+	"remover_delexical_verbs_sentenca": true,
+	"pos_tags_treebank": [
+		"JJ",
+		"JJR",
+		"JJS",
+		"NN",
+		"NNP",
+		"NNS",
+		"RB",
+		"RBR",
+		"RBS",
+		"VB",
+		"VBD",
+		"VBG",
+		"VBN",
+		"VBP",
+		"VBZ"
+	]
+}

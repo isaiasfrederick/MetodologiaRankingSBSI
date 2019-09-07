@@ -1,0 +1,9 @@
+Caso funcionando:
+isaias@Argentum-Mint18 ~/Desktop/SemEval2007/task10data/scoring $ perl score.pl ../../lexsubsystems/HIT.oot gold -t oot
+
+# https://groups.google.com/forum/#!topic/corpling-with-r/YPe55S0bykQ
+
+Sobre a métrica GAP:
+1. Não interessa a ordem dos sinonimos, contato que todos N sugeridos pelos anotadores estejam presentes
+
+https://stackoverflow.com/questions/15388831/what-are-all-possible-pos-tags-of-nltk 

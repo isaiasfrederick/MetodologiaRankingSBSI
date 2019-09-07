@@ -1,0 +1,101 @@
+[
+    {
+        "nome": "C=assembled_G=False_T=test_MAXEX=30_USAREX=False_FONTESDEF=oxford.best", 
+        "ModeRecall": 21.87, 
+        "Attempted": 1695.0, 
+        "ModePrecision": 21.89, 
+        "Precision": 13.06, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1229.0, 
+        "Recall": 13.06, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "UNT.anrv.best", 
+        "ModeRecall": 20.73, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 20.73, 
+        "Precision": 12.77, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 12.77, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "KU.anrv.best", 
+        "ModeRecall": 20.65, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 20.65, 
+        "Precision": 12.9, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 12.9, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "MELB.anrv.best", 
+        "ModeRecall": 20.41, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 20.41, 
+        "Precision": 12.68, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 12.68, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "IRST2.anrv.best", 
+        "ModeRecall": 20.33, 
+        "Attempted": 1693.0, 
+        "ModePrecision": 20.33, 
+        "Precision": 6.95, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 6.94, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "HIT.anrv.best", 
+        "ModeRecall": 18.86, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 18.86, 
+        "Precision": 11.35, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 11.35, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "usyd.anrv.best", 
+        "ModeRecall": 17.64, 
+        "Attempted": 1644.0, 
+        "ModePrecision": 18.22, 
+        "Precision": 11.23, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1191.0, 
+        "Recall": 10.88, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "IRST1.anrv.best", 
+        "ModeRecall": 13.09, 
+        "Attempted": 1695.0, 
+        "ModePrecision": 13.09, 
+        "Precision": 8.06, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 8.06, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "TOR.anrv.best", 
+        "ModeRecall": 4.72, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 4.72, 
+        "Precision": 2.98, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 2.98, 
+        "Total": 1696.0
+    }
+]

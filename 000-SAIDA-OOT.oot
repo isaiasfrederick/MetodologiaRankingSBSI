@@ -1,0 +1,112 @@
+[
+    {
+        "nome": "UNT.anrv.oot", 
+        "ModeRecall": 66.26, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 66.26, 
+        "Precision": 49.19, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 49.19, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "KU.anrv.oot", 
+        "ModeRecall": 61.3, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 61.3, 
+        "Precision": 46.15, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 46.15, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "C=assembled_G=False_T=test_MAXEX=30_USAREX=False_FONTESDEF=oxford.oot", 
+        "ModeRecall": 58.94, 
+        "Attempted": 1695.0, 
+        "ModePrecision": 58.99, 
+        "Precision": 40.61, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1229.0, 
+        "Recall": 40.58, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "IRST2.anrv.oot", 
+        "ModeRecall": 58.54, 
+        "Attempted": 1693.0, 
+        "ModePrecision": 58.54, 
+        "Precision": 69.03, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 68.9, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "IRST1.anrv.oot", 
+        "ModeRecall": 55.28, 
+        "Attempted": 1695.0, 
+        "ModePrecision": 55.28, 
+        "Precision": 41.23, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 41.2, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "HIT.anrv.oot", 
+        "ModeRecall": 46.91, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 46.91, 
+        "Precision": 33.88, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 33.88, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "SWAG2.anrv.oot", 
+        "ModeRecall": 46.02, 
+        "Attempted": 1555.0, 
+        "ModePrecision": 50.18, 
+        "Precision": 37.8, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1128.0, 
+        "Recall": 34.66, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "SWAG.anrv.oot", 
+        "ModeRecall": 43.82, 
+        "Attempted": 1567.0, 
+        "ModePrecision": 47.41, 
+        "Precision": 35.53, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1137.0, 
+        "Recall": 32.83, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "usyd.anrv.oot", 
+        "ModeRecall": 42.28, 
+        "Attempted": 1644.0, 
+        "ModePrecision": 43.66, 
+        "Precision": 36.07, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1191.0, 
+        "Recall": 34.96, 
+        "Total": 1696.0
+    }, 
+    {
+        "nome": "TOR.anrv.oot", 
+        "ModeRecall": 14.63, 
+        "Attempted": 1696.0, 
+        "ModePrecision": 14.63, 
+        "Precision": 11.19, 
+        "TotalWithMode": 1230.0, 
+        "ModeAttempted": 1230.0, 
+        "Recall": 11.19, 
+        "Total": 1696.0
+    }
+]
